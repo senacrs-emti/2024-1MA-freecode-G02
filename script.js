@@ -9,16 +9,16 @@ const questions = [
         ]
     },
     {
-       question: "qual seu animal preferido?" ,
+       question: "Qual é a diferença estrutural básica entre o DNA e o RNA?" ,
         answers: [
-        { text: "girafa" , correct: true },
-        { text: "gato" , correct: false },
-        { text: "boi" , correct: false },
-        { text: "cachorro" , correct: false },
+        { text: "O DNA é uma fita dupla, enquanto o RNA é uma fita simples." , correct: true },
+        { text: "O DNA contém uracila, enquanto o RNA contém timina." , correct: false },
+        { text: "O DNA é encontrado apenas no citoplasma, enquanto o RNA é encontrado apenas no núcleo." , correct: false },
+        { text: "O DNA é composto por ribose, enquanto o RNA é composto por desoxirribose." , correct: false },
      ]
    },
    {
-         question: "qual sua cor preferida?" ,
+         question: "Como ocorre o processo de transcrição do DNA para o RNA?" ,
           answers: [
           { text: "azul" , correct: false },
           { text: "amarelo" , correct: false },
@@ -27,15 +27,24 @@ const questions = [
      ]
  },
  {
-         question: "qual sua materia preferida?" ,
+         question: "Por que o RNA é importante para a síntese de proteínas nas células?" ,
           answers: [
           { text: "geografia" , correct: true },
           { text: "portugues" , correct: false },
           { text: "biologia" , correct: false },
           { text: "matematica" , correct: false },
       ]
-   }
-  ];
+   },
+   {
+    question: "Por que o RNA é importante para a síntese de proteínas nas células?" ,
+     answers: [
+     { text: "geografia" , correct: true },
+     { text: "portugues" , correct: false },
+     { text: "biologia" , correct: false },
+     { text: "matematica" , correct: false },
+ ]
+}
+];
  
   const questionElement = document.getElementById("question");
   const answerButtons = document.getElementById("answer-buttons");
@@ -97,7 +106,7 @@ const questions = [
  
  function showScore(){
    resetState();
-   questionElement.innerHTML = `You scored ${score} out of ${questions.length}`;
+   questionElement.innerHTML = `Você acertou  ${score} questões de ${questions.length}!`;
    nextButton.innerHTML = "Play Again";
    nextButton.style.display = "block";
  }
