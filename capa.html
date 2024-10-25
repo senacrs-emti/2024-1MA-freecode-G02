@@ -10,13 +10,8 @@
     <div class="box">
         <h1> Quiz sobre DNA & RNA</h1>
         <h2> Aperte para iniciar</h2>
-        <button class="button-with-icon">
-          <svg
-            class="icon"
-            id="Play"
-            viewBox="0 0 48 48"
-        
-          >
+        <button id="playButton" class="button-with-icon">
+        <svg class="icon" id="Play" viewBox="0 0 48 48">
             <path
               class="color000000 svgShape"
               fill="#ffffff"
@@ -24,7 +19,21 @@
             ></path>
           </svg>
           <span class="text">Play</span> 
+        
         </button>
+        <body> 
+        
+          <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+              <div class="vw-plugin-top-wrapper"></div>
+            </div>
+          </div>
+          <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+          <script>
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+          </script>
+
        
  
     <script src="./capa.js"></script>

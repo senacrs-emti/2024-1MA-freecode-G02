@@ -1,6 +1,7 @@
+
 const questions = [
     {
-      question: "O que é Dna?" ,
+      question: "O que é DNA?" ,
       answers: [
          { text: "A) Uma molécula responsável pela transmissão de impulsos nervosos." , correct: false },
          { text: "B) Um tipo de carboidrato encontrado nas células" , correct: false },
@@ -11,19 +12,19 @@ const questions = [
     {
        question: "Qual é a diferença estrutural básica entre o DNA e o RNA?" ,
         answers: [
-        { text: "O DNA é uma fita dupla, enquanto o RNA é uma fita simples." , correct: true },
-        { text: "O DNA contém uracila, enquanto o RNA contém timina." , correct: false },
-        { text: "O DNA é encontrado apenas no citoplasma, enquanto o RNA é encontrado apenas no núcleo." , correct: false },
-        { text: "O DNA é composto por ribose, enquanto o RNA é composto por desoxirribose." , correct: false },
+        { text: "A) O DNA é uma fita dupla, enquanto o RNA é uma fita simples." , correct: true },
+        { text: "B) O DNA contém uracila, enquanto o RNA contém timina." , correct: false },
+        { text: "C) O DNA é encontrado apenas no citoplasma, enquanto o RNA é encontrado apenas no núcleo." , correct: false },
+        { text: "D) O DNA é composto por ribose, enquanto o RNA é composto por desoxirribose." , correct: false },
      ]
    },
    {
          question: "Como ocorre o processo de transcrição do DNA para o RNA?" ,
           answers: [
-          { text: "azul" , correct: false },
-          { text: "amarelo" , correct: false },
-          { text: "vermelho" , correct: false },
-          { text: "rosa" , correct: true},
+          { text: "A) A transcrição ocorre no citoplasma, onde o RNA se liga diretamente ao DNA para formar proteínas." , correct: false },
+          { text: "B) A transcrição utiliza ribossomos para sintetizar RNA a partir de cadeias de DNA. " , correct: false },
+          { text: "C) A transcrição é realizada por enzimas chamadas RNA polimerases, que ligam nucleotídeos para produzir uma cadeia de RNA (usando uma cadeia de DNA como modelo)." , correct: true },
+          { text: "D) Durante a transcrição, o RNA é sintetizado a partir de RNA, utilizando DNA como molde.          " , correct: false},
      ]
  },
  {
@@ -36,7 +37,7 @@ const questions = [
       ]
    },
    {
-    question: "Por que o RNA é importante para a síntese de proteínas nas células?" ,
+    question: "Qual é a diferença entre a transcrição e a tradução??" ,
      answers: [
      { text: "geografia" , correct: true },
      { text: "portugues" , correct: false },
@@ -103,14 +104,12 @@ const questions = [
      });
      nextButton.style.display = "block";
  }
- 
  function showScore(){
    resetState();
-   questionElement.innerHTML = `Você acertou  ${score} questões de ${questions.length}!`;
+   questionElement.innerHTML = `Você acertou  ${score} de ${questions.length} questões!`;
    nextButton.innerHTML = "Play Again";
    nextButton.style.display = "block";
  }
- 
  
  function  handleNextButton(){
      currentQuestionIndex++;
@@ -131,3 +130,11 @@ const questions = [
  
  
  startQuiz();
+ document.getElementById('playButton').addEventListener('click', function() {
+  this.classList.add('fade-out'); // Adiciona a classe de animação
+
+  setTimeout(() => {
+      window.location.href = 'sua_pagina_de_destino.html'; // Altere para a URL da página que você deseja redirecionar
+  }, 500); // Espera a animação terminar antes de redirecionar
+});
+     
