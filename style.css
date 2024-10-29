@@ -91,6 +91,19 @@ header div.background-header video{
     height: 50px;
     background-color: aquamarine;
   }
-  footer div img{
-    
+  footer div{
+    width: 300px;
+    height: 50px;
+    display: block;
+    float: left;
   }
+  footer div img{
+    border-radius: 50%;
+    width: 40px;
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+ div.github{
+  margin-left: 50px;
+  margin-top: -45px;
+ }
