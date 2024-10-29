@@ -130,3 +130,26 @@ body {
         translate: 0 0 -1px;
     }
 }
+
+aside.quadrado{
+    width: 250px;
+    height: 500px;
+   margin-left: -860px;
+   margin-top: -430px;
+
+   
+}
+aside.quadrado h1{
+    margin-top: 90px;
+    color: white;
+}
+aside.quadrado p{
+    margin-top: 30px;
+    color: white;
+     
+}
+
+.uracila{
+background-color: rgb(112, 4, 4);
+}
+
