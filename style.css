@@ -198,4 +198,6 @@ div.quadro{
 #legenda li{
     margin-top: 10px;
     list-style-type: none;
+    font-size: large;
+    color: white;
 }
