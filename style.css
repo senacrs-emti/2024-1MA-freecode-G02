@@ -91,11 +91,12 @@ header div.background-header video{
     height: 50px;
     background-color: aquamarine;
   }
-  footer div{
-    width: 300px;
+  footer .lista{
+    width: 310px;
     height: 50px;
     display: block;
     float: left;
+    margin-left: 20px;
   }
   footer div img{
     border-radius: 50%;
@@ -106,4 +107,5 @@ header div.background-header video{
  div.github{
   margin-left: 50px;
   margin-top: -45px;
+
  }
