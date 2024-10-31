@@ -164,6 +164,9 @@ div.quadro{
     height: 20px;
     width: 20px;
 }
+.quadroamarelo:hover{
+background-color: aqua;
+}
 .quadroamarelo span{
     margin-left: 30px;
 }
