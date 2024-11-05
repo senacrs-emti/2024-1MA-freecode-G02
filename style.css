@@ -164,13 +164,38 @@ div.quadro{
     height: 20px;
     width: 20px;
 }
-.quadroamarelo:hover{
-background-color: aqua;
-}
-.quadroamarelo span{
-    margin-left: 30px;
+  
+  #caixa{
+    width: 300px;
+    display: block;
+    height: 200px;
+    float: left;
+    margin-left: -880px;
+    margin-top: -105px;
+
+    
+  }
+.adenina{
+    background-color: rgb(247, 250, 51)!important;
+    font-size: 10px;
+    text-align: center;
 }
 
+.Guanina{
+    background-color: rgb(96, 167, 89)!important;
+    font-size: 10px;
+    text-align: center;
+}
+.Citosina{
+    background-color:  rgb(44, 59, 197)!important;
+    font-size: 10px;
+    text-align: center;
+}
+.Uracila{
+    background-color: rgb(112, 4, 4)!important;
+    font-size: 10px;
+    text-align: center;
+}
 .quadroazul{
     height: 20px;
     width: 20px;

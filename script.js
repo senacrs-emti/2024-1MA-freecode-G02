@@ -21,3 +21,31 @@ if (!CSS.supports('top: calc(sin(1) * 1px)')) {
   NODES.forEach(NODE => {
     NODE.style.setProperty('--bg', COLORS[Math.floor(Math.random() * COLORS.length)])
   })
+
+
+/* BOTOES */
+  const btnAdenima = document.getElementById("btnAdenima");
+  let caixaTexto = document.getElementById('caixa');
+   
+
+
+  
+  btnAdenima.addEventListener("click", (e) => {
+    caixaTexto.className = "adenina";
+    caixaTexto.innerHTML = "<h1>Adenina</h1><p>dasbdjasbdjasbdasd</p>";  
+  });
+  
+  btnGuanina.addEventListener("click", (e) => {
+    caixaTexto.className = "Guanina";
+    caixaTexto.innerHTML = "<h1>Guanina</h1><p>skksksksks<p>";
+  });
+
+  btnCitosina.addEventListener("click", (e) => {
+    caixaTexto.className = "Citosina";
+    caixaTexto.innerHTML = "<h1>Citosina</h1><p>skksksksks<p>"
+  });
+
+  btnUracila.addEventListener("click", (e) => {
+    caixaTexto.className = "Urasila";
+    caixaTexto.innerHTML ="<h1>Uracila</h1><p>skksksksks<p>"
+  });
