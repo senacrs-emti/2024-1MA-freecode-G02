@@ -171,10 +171,16 @@ div.quadro{
     height: 200px;
     float: left;
     margin-left: 808px;
-    margin-top: -586px;
-
-    
+    margin-top: -586px;    
   }
+  #caixa p{
+    color: black;
+    font-size: 12px;
+    text-align: center;
+    margin: 3%;
+    padding-top: 1px;
+  }
+
 .adenina{
     background-color: rgb(247, 250, 51)!important;
     font-size: 10px;
@@ -192,7 +198,7 @@ div.quadro{
     text-align: center;
 }
 .Uracila{
-    background-color: rgb(112, 4, 4)!important;
+    background-color: rgb(154, 48, 48)!important;
     font-size: 10px;
     text-align: center;
 }
@@ -234,3 +240,4 @@ font-size: 14px;
 margin-left: 25px;
 margin-top: -15px;
 }
+
