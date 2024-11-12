@@ -24,6 +24,7 @@ body {
     rotate: 30deg;
     gap: 0.5vmin;
     animation: rotate 14s infinite linear;
+    margin-top:80px;
 }
  
 @keyframes spin {
