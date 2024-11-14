@@ -1,0 +1,29 @@
+header{
+    height: 300px;
+    width: 100%;
+    background-color: aqua;
+}
+.camila{
+    height: 200px;
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.estela{
+    height: 200px;
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.isabelle{
+    height: 200px;
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.duda{
+    height: 200px;
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
