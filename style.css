@@ -24,7 +24,8 @@ body {
     rotate: 30deg;
     gap: 0.5vmin;
     animation: rotate 14s infinite linear;
-    margin-top:80px;
+    margin-top:115px;
+
 }
  
 @keyframes spin {
@@ -133,12 +134,10 @@ body {
 }
 
 aside.quadrado{
-    width: 250px;
-    height: 452px;
-   margin-left: -860px;
-   margin-top: -430px;
-
-   
+    width: 312px;
+    height: 415px;
+    margin-left: -747px;
+    margin-top: -630px;   
 }
 aside.quadrado h1{
     margin-top: 90px;
@@ -147,14 +146,21 @@ aside.quadrado h1{
 aside.quadrado p{
     margin-top: 30px;
     color: white;
-     
+   margin: 2%;
 }
 
-.uracila{
+.bolaUracila{
 background-color: rgb(112, 4, 4);
 }
-
-
+.bolaAdenina{
+    background-color: rgb(247, 250, 51);
+}
+.bolaGuanina{
+    background-color: rgb(96, 167, 89)
+}
+.bolaCitosina{
+    background-color:  rgb(44, 59, 197)
+}
 div.quadro{
     margin-left: 664px;
     margin-top: -192px;
