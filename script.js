@@ -30,19 +30,19 @@ const questions = [
  {
          question: "Por que o RNA é importante para a síntese de proteínas nas células?" ,
           answers: [
-          { text: "geografia" , correct: true },
-          { text: "portugues" , correct: false },
-          { text: "biologia" , correct: false },
-          { text: "matematica" , correct: false },
+          { text: " A) O RNA armazena informações genéticas necessárias para a síntese de proteínas." , correct: false },
+          { text: " B) O RNA transporta oxigênio para as células, permitindo a síntese de proteínas." , correct: false },
+          { text: " C) O RNA é um componente estrutural dos ribossomos, onde as proteínas são produzidas." , correct: false },
+          { text: " D) O RNA é responsável por transmitir a informação genética do DNA para os ribossomos, onde ocorre a síntese de proteínas." , correct: true },
       ]
    },
    {
-    question: "Qual é a diferença entre a transcrição e a tradução??" ,
+    question: "Qual é a diferença entre a transcrição e a tradução?" ,
      answers: [
-     { text: "geografia" , correct: true },
-     { text: "portugues" , correct: false },
-     { text: "biologia" , correct: false },
-     { text: "matematica" , correct: false },
+     { text: "A) A transcrição ocorre apenas em células procariontes, enquanto a tradução ocorre apenas em células eucariontes." , correct: false },
+     { text: "B) A transcrição e a tradução são sinônimos e se referem ao mesmo processo celular." , correct: false },
+     { text: "C) A transcrição é o processo de copiar a informação do DNA para o RNA, enquanto a tradução é a conversão do RNA em proteínas." , correct: true },
+     { text: "D) A transcrição envolve a síntese de DNA a partir de RNA, enquanto a tradução é a síntese de RNA a partir de proteínas." , correct: false },
  ]
 }
 ];
