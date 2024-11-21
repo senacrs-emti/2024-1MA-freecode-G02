@@ -25,6 +25,8 @@ body {
 	rotate: 30deg;
 	gap: 0.5vmin;
 	animation: rotate 14s infinite linear;
+	margin-top: 100px;
+
 }
 
 @keyframes spin {
@@ -130,4 +132,105 @@ body {
 	75% {
 		translate: 0 0 -1px;
 	}
+}
+aside.retangulo{
+	width: 250px;
+	height: 500px;
+	margin-left: -800px;
+	margin-top: -550px;
+}
+aside.retangulo h1{
+	margin-top: 150px;
+    color: white;
+}
+aside.retangulo p{
+	color: white;
+	margin-top: 20px;
+}
+#container{
+	width: 200px;
+	height: 500px;
+	margin-left: 600px;
+	margin-top: -140px;
+	
+}
+.guanina{
+	background-color: rgb(96, 167, 89);
+			
+}
+.citosina{
+	background-color: rgb(44, 59, 197);
+}
+.adenina{
+	background-color: rgb(247, 250, 51);
+}
+.timina{
+	background-color: rgb(146, 38, 38);
+}
+.legenda{
+	margin-left: 600px;
+	margin-top: -200px;
+}
+.quadrado{
+	margin-left: 664px;
+    margin-top: -192px;
+}
+.quadradoamarelo{
+	background-color: rgb(247, 250, 51);
+	height: 20px;
+	width: 20px;
+}
+.quadradovermelho{
+	background-color: rgb(146, 38, 38);
+	height: 20px;
+	width: 20px;
+	margin-top: 15px;
+}
+
+.quadradoazul{
+	background-color:  rgb(44, 59, 197);
+	height: 20px;
+	width: 20px;
+	margin-top: 15px;
+	
+}
+.quadradoverde{
+	background-color: rgb(96, 167, 89);
+	height: 20px;
+	width: 20px;
+	margin-top: 15px;
+}
+#textolegenda{
+	font-size: large;
+	margin-left: 28px;
+	color: white;
+	
+}
+#textolegenda li{
+	list-style-type: none;
+}
+#textolegenda li h1{
+	font-size: 16px;
+	color: white;
+	margin-left: 30px;
+}
+#caixa{
+    width: 300px;
+    display: block;
+    height: 250px;
+    float: left;
+    margin-left: 808px;
+    margin-top: -586px;
+}
+#caixa h1{
+	color:black;
+	margin-left: 80px;
+	
+}
+#caixa p {
+	color: black;
+    font-size: 12px;
+    text-align: center;
+    margin: 3%;
+    padding-top: 1px;
 }
