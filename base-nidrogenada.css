@@ -71,15 +71,111 @@ header div.background-header video{
     padding-top: 148px;
     padding-left: 380px;
 }
-p{ 
-    color: white;
-    margin:0;
-    margin-left: 20px;
-    font-size: 17px;
-}
 main{
     width: 100%;
     height: 700px;
     background-color:hsl(210 80% 12%);
     margin-top: 50px;
+}
+.caixa1{
+  height: 300px;
+  width: 70%;
+  background-color:rgb(26, 60, 88);
+  margin-top: 25px;
+  margin-left: 25px;
+}
+.caixa2{
+  height: 350px;
+  width: 460px;
+  margin-top: 135px;
+  background-color: rgb(26, 60, 88);
+
+  
+}
+.caixa3{
+  height: 350px;
+  width: 463px;
+  margin-top: -350px;
+  background-color: rgb(26, 60, 88);
+  margin-left: 480px;
+  
+}
+.h1{
+  background-color:hsl(210 80% 12%);
+  height: 50px;
+  width: 70%px;
+  color: white;
+
+
+}
+.h2{
+  background-color: black;
+  height: 50px;
+  width: 70%px;
+  color: white;
+  
+  margin-top: px;
+}
+.h3{
+  background-color: black;
+  height: 50px;
+  width: 70%px;
+  color: white;
+  
+  margin-top: px;
+}
+.quadradobranco{
+  height: 210px;
+  width: 210px;
+  margin-left: 20px;
+  margin-top: 20px;
+  background-color: white;
+  background-image: url("https://static.todamateria.com.br/upload/58/3d/583d58c0ba8ba-bases-nitrogenadas.jpg");
+}
+.bio{
+  margin-left: 300px;
+  margin-top: -220px;
+  font-size: xx-large;
+  
+  color: white;
+}
+.p{
+  margin-left: 300px;
+  margin-top: 40px;
+  color: white;
+  
+}
+.texto{
+  margin-top: 25px;
+  margin-left: 20px;
+  color: white;
+ 
+}
+.texto2{
+  margin-top: 30px;
+  margin-left: 10px;
+  color: white;
+  
+}
+.biodiversidade{
+  margin-top: -40px;
+  margin-left: 15px;
+  color: white;
+ 
+}
+.importancia{
+  margin-top: -40px;
+  margin-left: 15px;
+  color: white;
+ 
+}
+.lista{
+  margin-left: 40px;
+  margin-top: 15px;
+  color: white;
+}
+.lista2{
+  margin-left: 528px;
+  margin-top: 40px;
+  color: white;
 }
