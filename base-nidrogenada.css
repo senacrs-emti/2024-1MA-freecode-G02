@@ -73,7 +73,7 @@ header div.background-header video{
 }
 main{
     width: 100%;
-    height: 700px;
+    height: 900px;
     background-color:hsl(210 80% 12%);
     margin-top: 50px;
 }
@@ -85,17 +85,17 @@ main{
   margin-left: 25px;
 }
 .caixa2{
-  height: 350px;
+  height: 410px;
   width: 460px;
-  margin-top: 135px;
+  margin-top: 50px;
   background-color: rgb(26, 60, 88);
 
   
 }
 .caixa3{
-  height: 350px;
+  height: 410px;
   width: 463px;
-  margin-top: -350px;
+  margin-top: -410px;
   background-color: rgb(26, 60, 88);
   margin-left: 480px;
   
@@ -125,12 +125,13 @@ main{
   margin-top: px;
 }
 .quadradobranco{
-  height: 210px;
-  width: 210px;
   margin-left: 20px;
   margin-top: 20px;
   background-color: white;
-  background-image: url("https://static.todamateria.com.br/upload/58/3d/583d58c0ba8ba-bases-nitrogenadas.jpg");
+  background-image: url("https://cdn.diferenca.com/imagens/dna-e-rna-2-cke.jpg");
+  height: 210px;
+  width:260px;
+  background-size: cover;
 }
 .bio{
   margin-left: 300px;
@@ -141,7 +142,7 @@ main{
 }
 .p{
   margin-left: 300px;
-  margin-top: 40px;
+  margin-top: 20px;
   color: white;
   
 }
@@ -169,13 +170,28 @@ main{
   color: white;
  
 }
-.lista{
-  margin-left: 40px;
-  margin-top: 15px;
-  color: white;
+aside{
+  height: 689px;
+  width: 25%;
+  background-color: rgb(26, 60, 88);
+  float: right;
+  margin-top: -250px;
+  margin-right: 21px;
 }
-.lista2{
-  margin-left: 528px;
-  margin-top: 40px;
+.ml{
+  height: 65px;
+  background-color: black;
   color: white;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.caixaquadrada{
+  width: 250px;
+  height: 140px;
+  margin-left: 15px;
+  margin-top: 10px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/2c/Bases_nitrogenadas.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: white;
 }
