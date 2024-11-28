@@ -4,6 +4,9 @@
     font-family:Georgia, 'Times New Roman', Times, serif;
     box-sizing: border-box;
     }
+    header{
+        height: 95px!important;
+    }
     body{
         background: #001e4d;
     }
