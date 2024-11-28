@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./dna.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/109/three.min.js"></script>
+  <script src="https://unpkg.com/three@0.85.0/examples/js/controls/OrbitControls.js"></script>
+</head>
+
+<body>
+  <div class="dna" style="--total: 13;">
+    <div class="strand" style="--index: 1;">
+      <div class="strand__node guanina"></div>
+      <div class="strand__node citosina"></div>
+    </div>
+    <div class="strand" style="--index: 2;">
+      <div class="strand__node adenina"></div>
+      <div class="strand__node timina"></div>
+    </div>
+    <div class="strand" style="--index: 3;">
+      <div class="strand__node citosina"></div>
+      <div class="strand__node guanina"></div>
+    </div>
+    <div class="strand" style="--index: 4;">
+      <div class="strand__node timina"></div>
+      <div class="strand__node adenina"></div>
+    </div>
+    <div class="strand" style="--index: 5;">
+      <div class="strand__node citosina"></div>
+      <div class="strand__node guanina"></div>
+    </div>
+    <div class="strand" style="--index: 6;">
+      <div class="strand__node adenina"></div>
+      <div class="strand__node timina"></div>
+    </div>
+    <div class="strand" style="--index: 7;">
+      <div class="strand__node guanina"></div>
+      <div class="strand__node citosina"></div>
+    </div>
+    <div class="strand" style="--index: 8;">
+      <div class="strand__node timina"></div>
+      <div class="strand__node adenina"></div>
+    </div>
+    <div class="strand" style="--index: 9;">
+      <div class="strand__node citosina"></div>
+      <div class="strand__node guanina"></div>
+    </div>
+    <div class="strand" style="--index: 10;">
+      <div class="strand__node adenina"></div>
+      <div class="strand__node timina"></div>
+    </div>
+    <div class="strand" style="--index: 11;">
+      <div class="strand__node guanina"></div>
+      <div class="strand__node citosina"></div>
+    </div>
+    <div class="strand" style="--index: 12;">
+      <div class="strand__node timina"></div>
+      <div class="strand__node adenina"></div>
+    </div>
+    <div class="strand" style="--index: 13;">
+      <div class="strand__node citosina"></div>
+      <div class="strand__node guanina"></div>
+    </div>
+  </div>
+  
+  <div id="caixa"></div>
+  
+
+
+  <aside class="retangulo">
+    <h1>DNA</h1>
+    <p>O DNA é uma molécula que carrega as informações genéticas, e contém genes que são organizados em estruturas chamadas de cromossomos</p>
+  </aside>
+
+  <div id="container">
+    <div class="quadro"> 
+      <ul id="textolegenda">
+        <li>
+          <div class="quadradoamarelo">  <span><h1 id="btnAdenima">Adenina</h1></span></div>
+        </li>
+  
+        <li>
+          <div class="quadradoverde"> <span><h1 id="btnGuanina">Guanina</h1></span></div>
+        </li>
+  
+        <li>
+          <div class="quadradoazul"> <span> <h1 id="btnCitosina">Citosina</h1></span></div>
+        </li>
+  
+        <li>
+          <div class="quadradovermelho"> <span><h1 id="btnUracila">Timina</h1></span>
+        </li>
+      </ul>
+  </div>
+  </div>
+  
+  <script src="dna.js"></script>
+</body>
+
+</html>
