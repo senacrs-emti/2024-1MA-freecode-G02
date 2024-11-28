@@ -1,0 +1,293 @@
+@import "normalize.css";
+ 
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+body {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    font-family:  'Google Sans', sans-serif, system-ui;
+    transform-style: preserve-3d;
+    perspective: 100vmin;
+    background: hsl(210 80% 12%);
+}
+header{
+    height: 90px;
+    width: 100%;
+    background-position: center center;
+    margin-top: -40px; 
+  }
+
+header #menu{
+    z-index: 9999;
+    position: relative;
+  }
+   
+header #menu ul  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    height: 70px;
+    padding-left: 30%;
+    padding-top: 45px;
+    width: 100%;
+  }
+
+  header #menu ul li {
+    float: left;
+  }
+
+  header #menu ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: -18px;
+ 
+}
+ 
+  header #menu ul li a:hover {
+    background-color: #14143d;
+  }
+  
+ 
+.dna {
+    height: 65vmin;
+    aspect-ratio: 2/5;
+    display: grid;
+    transform-style: preserve-3d;
+    transform: rotateX(0deg);
+    rotate: 30deg;
+    gap: 0.5vmin;
+    animation: rotate 14s infinite linear;
+    margin-top:60px;
+    margin-left: 50px;
+
+}
+ 
+@keyframes spin {
+    to {
+        transform: rotateY(360deg);
+    }
+}
+ 
+.strand {
+              --speed: 8;
+              --delay: calc(sin((var(--index) / var(--total)) * 45deg) * var(--speed) * -1s);
+    width: 100%;
+    transform-style: preserve-3d;
+    display: flex;
+    justify-content: space-between;
+}
+ 
+@keyframes rotate {
+    to {
+       
+    }
+}
+ 
+.strand__node {
+    background: var(--bg, white);
+    height: 100%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    animation: jump calc(var(--speed) * 1s) var(--delay, 0) infinite ease-in-out;
+    border: 0.5vmin solid black;
+}
+ 
+.strand__node_hide {
+    background: var(--bg, white);
+    height: 100%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    animation: jump calc(var(--speed) * 1s) var(--delay, 0) infinite ease-in-out;
+    border: 0.5vmin solid black;
+    display: none;
+}
+ 
+.strand:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 94%;
+    height: 30%;
+    background: white;
+    transform: translate3d(-50%, -50%, -2px);
+    transform-origin: center;
+    animation: scale calc(var(--speed) * 1s) var(--delay, 0) infinite linear;
+    border: 0.5vmin solid black;
+}
+ 
+@keyframes scale {
+    25%, 75% {
+        transform: translate3d(-50%, -50%, -2px) scaleX(0);
+    }
+    0%, 50%, 100% {
+        transform: translate3d(-50%, -50%, -2px) scaleX(1);
+    }
+}
+ 
+.strand__node:first-of-type {
+    --destination: calc((65vmin * (2 / 5)) - 100%);
+/*  background: hsl(120 80% 50%); */
+}
+.strand__node:last-of-type {
+    --destination: calc((-65vmin * (2 / 5)) + 100%);
+    animation-direction: reverse;
+/*  background: hsl(210 80% 50%); */
+}
+ 
+.strand__node:after {
+  display: none;
+    content: "";
+    height: 15%;
+    aspect-ratio: 1;
+    background: var(--bg, white);
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(0deg) translateY(450%);
+    animation: orbit calc(var(--speed) * 0.35s) var(--delay, 0) infinite linear;
+}
+ 
+@keyframes orbit {
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg) translateY(450%);
+    }
+}
+ 
+@keyframes jump {
+    25% {
+        translate: 0 0 1px;
+    }
+    50% {
+        transform: translateX(var(--destination));
+    }
+    75% {
+        translate: 0 0 -1px;
+    }
+}
+
+aside.quadrado{
+    width: 312px;
+    height: 415px;
+    margin-left: -825px;
+    margin-top: -630px;   
+}
+aside.quadrado h1{
+    margin-top: 90px;
+    color: white;
+}
+aside.quadrado p{
+    margin-top: 30px;
+    color: white;
+   margin: 2%;
+}
+
+.bolaUracila{
+background-color: rgb(112, 4, 4);
+}
+.bolaAdenina{
+    background-color: rgb(247, 250, 51);
+}
+.bolaGuanina{
+    background-color: rgb(96, 167, 89)
+}
+.bolaCitosina{
+    background-color:  rgb(44, 59, 197)
+}
+div.quadro{
+    margin-left: 664px;
+    margin-top: -192px;
+    
+}
+.quadroamarelo{
+    background-color: rgb(247, 250, 51);
+    height: 20px;
+    width: 20px;
+}
+  
+  #caixa{
+    width: 300px;
+    display: block;
+    height: 200px;
+    float: left;
+    margin-left: 808px;
+    margin-top: -586px;    
+  }
+  #caixa p{
+    color: black;
+    font-size: 12px;
+    text-align: center;
+    margin: 3%;
+    padding-top: 1px;
+  }
+
+.adenina{
+    background-color: rgb(247, 250, 51)!important;
+    font-size: 10px;
+    text-align: center;
+}
+
+.Guanina{
+    background-color: rgb(96, 167, 89)!important;
+    font-size: 10px;
+    text-align: center;
+}
+.Citosina{
+    background-color:  rgb(44, 59, 197)!important;
+    font-size: 10px;
+    text-align: center;
+}
+.Uracila{
+    background-color: rgb(154, 48, 48)!important;
+    font-size: 10px;
+    text-align: center;
+}
+.quadroazul{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(44, 59, 197);
+}
+.quadroazul span{
+    margin-left: 30px;
+}
+
+.quadroverde{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(96, 167, 89);
+}
+.quadroverde span{
+    margin-left: 40px;
+}
+
+.quadrovermelho{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(112, 4, 4) ;
+}
+.quadrovermelho span{
+    margin-left: 30px ;
+}
+
+#legenda li{
+    margin-top: 10px;
+    list-style-type: none;
+   
+    color: white;
+}
+div span h1{
+font-size: 14px;
+margin-left: 25px;
+margin-top: -15px;
+}
+
