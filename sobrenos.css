@@ -71,12 +71,7 @@ header div.background-header video{
     padding-left: 525px;
 
 }
-p{ 
-    color: white;
-    margin:0;
-    margin-left: 20px;
-    font-size: 17px;
-}
+
 header p{
     color: white;
     position: relative;
@@ -93,24 +88,22 @@ main{
 .camila{
     height: 150px;
     width: 150px;
-    margin-top: 50px;
-    margin-left: 50px;
+    padding-left: 75px;
+    margin:5% 5% 0 5%;
 }
 .estela{
     height:150px;
     width: 150px;
-    margin-top: 50px;
-    margin-left: 50px;
+    margin:5% 5% 0 5%;
 }
 .isabelle{
     height:150px;
     width: 150px;
-    margin-top: 50px;
-    margin-left: 50px;
+    margin:5% 5% 0 5%;
 }
 .duda{
     height: 150px;
     width: 150px;
-    margin-top: 50px;
-    margin-left: 50px;
+    margin:5% 5% 0 ;
 }
+
