@@ -90,20 +90,59 @@ main{
     width: 150px;
     padding-left: 75px;
     margin:5% 5% 0 5%;
+    display: block;
+    float: left;
 }
+.camila img{
+  height: 150px;
+  width: 150px;
+}
+.camila span{
+  color: white;
+}
+
 .estela{
     height:150px;
     width: 150px;
     margin:5% 5% 0 5%;
+    display: block;
+    float: left;
 }
+.estela img{
+  height: 150px;
+  width: 150px;
+}
+.estela span{
+  color: white;
+}
+
 .isabelle{
     height:150px;
     width: 150px;
     margin:5% 5% 0 5%;
+    display: block;
+    float: left;
 }
+.isabelle img{
+  height: 150px;
+  width: 150px;
+}
+.isabelle span{
+  color: white;
+}
+
 .duda{
     height: 150px;
     width: 150px;
-    margin:5% 5% 0 ;
+    margin:5% 5% 0 5%;
+    display: block;
+    float: left;
+}
+.duda img{
+  height: 150px;
+  width: 150px;
+}
+.duda span{
+  color: white;
 }
 

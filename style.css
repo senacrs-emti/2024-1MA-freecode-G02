@@ -101,7 +101,7 @@ header div.background-header video{
     height: 50px;
     display: block;
     float: left;
-    margin-left: 20px;
+    margin-left: 25px;
   }
   footer div img{
     border-radius: 50%;
@@ -113,6 +113,7 @@ header div.background-header video{
   margin-left: 55px;
   margin-top: -45px;
   color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
  }
  footer div  div.github p a {
   color: white;
