@@ -145,4 +145,12 @@ main{
 .duda span{
   color: white;
 }
+.textinho{
+  display: block;
+  float: left;
+  margin-top: 50px;
+  color: white;
+  margin-left: 5%;
+  margin-right: 5%;
+}
 
