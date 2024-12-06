@@ -144,19 +144,20 @@ main{
   margin-left: 300px;
   margin-top: 20px;
   color: white;
-  
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .texto{
   margin-top: 25px;
   margin-left: 20px;
   color: white;
- 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 15px;
 }
 .texto2{
   margin-top: 30px;
   margin-left: 10px;
   color: white;
-  
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .biodiversidade{
   margin-top: -40px;
@@ -171,7 +172,7 @@ main{
  
 }
 aside{
-  height: 689px;
+  height: 697px;
   width: 25%;
   background-color: rgb(26, 60, 88);
   float: right;
@@ -203,7 +204,7 @@ aside{
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
+  z-index: 999999; /* Sit on top */
   left: 0;
   top: 0;
   width: 100%; /* Full width */
@@ -221,6 +222,7 @@ aside{
   padding: 20px;
   border: 1px solid #888;
   width: 80%; /* Could be more or less, depending on screen size */
+  z-index: 9999;
   
 }
 

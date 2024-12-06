@@ -149,10 +149,12 @@ aside.retangulo h1{
 aside.retangulo p{
 	color: white;
 	margin-top: 20px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 20px;
 }
 #container{
 	width: 200px;
-	height: 500px;
+	height: 190px;
 	margin-left: 600px;
 	margin-top: -140px;
 	
@@ -235,5 +237,6 @@ aside.retangulo p{
     font-size: 12px;
     text-align: center;
     margin: 3%;
-    padding-top: 1px;
+    padding-top: 20px;
 }
+

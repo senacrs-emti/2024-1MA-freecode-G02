@@ -78,7 +78,7 @@ header div.background-header video{
   }
   main div.bm{
     color: white;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: relative;
     z-index: 99;
     padding-top: 200px;
@@ -93,7 +93,7 @@ header div.background-header video{
   }
   footer{
     width: 100%;
-    height: 50px;
+    height: 100px;
     background-color:  rgb(12, 12, 12);
   }
   footer .lista{
@@ -101,19 +101,22 @@ header div.background-header video{
     height: 50px;
     display: block;
     float: left;
-    margin-left: 20px;
+    margin-left: 25px;
   }
   footer div img{
     border-radius: 50%;
     width: 40px;
-    margin-left: 5px;
+    text-align: center;
+    margin-left: 70px;
     margin-top: 5px;
   }
- div.github{
-  margin-left: 55px;
-  margin-top: -45px;
-  color: white;
- }
  footer div  div.github p a {
   color: white;
  }
+.lista .github a{
+  color: white;
+  text-decoration: none;
+  margin-left: 55px;
+  margin-top: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
