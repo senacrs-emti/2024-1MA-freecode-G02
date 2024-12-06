@@ -84,33 +84,46 @@ header p {
   z-index: 99;
   text-align: center;
 }
-
 main {
   width: 100%;
-  height: 400px;
+  height: 500px;
   background-color: hsl(210 80% 12%);
-  margin-top: 50px;
-  display: flex; /* Flex container para as divs */
-  justify-content: space-evenly; /* Distribui as fotos de maneira uniforme */
-  align-items: center; /* Alinha verticalmente ao centro */
+  display: block;
+  float: left;
 }
-
 .camila, .estela, .isabelle, .duda {
-  display: flex; /* Torna as divs internas flex containers */
-  flex-direction: column; /* Organiza imagem e nome em coluna */
-  align-items: center; /* Alinha imagem e nome ao centro */
-  margin: 5% 5% 0 5%;
+  float: left;
+  display: block;
+  width: 15%;
+  margin: 5% 5% 5% 5%;
 }
 
 .camila img, .estela img, .isabelle img, .duda img {
   height: 150px;
   width: 150px;
- 
+  float: left;
+  clear: both;
 }
+
 
 .camila span, .estela span, .isabelle span, .duda span {
   color: white;
-  margin-top: 10px; /* Espaçamento entre a imagem e o nome */
-  text-align: center; /* Alinha o nome ao centro */
+  margin-top: 8px; 
+  text-align: center; 
+  float: left;
+  clear: both;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
+.lista .github .duda{
+  text-align: center;
+}
+.textinho{
+  width: 90%;
+  display: block;
+  float: left; 
+  align-items: center; 
+  margin: 0 5% 5% 5%;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 17px;  
+}

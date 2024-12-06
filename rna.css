@@ -152,7 +152,9 @@ aside.quadrado h1{
 aside.quadrado p{
     margin-top: 30px;
     color: white;
-   margin: 2%;
+    margin: 2%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
 }
 
 .bolaUracila{

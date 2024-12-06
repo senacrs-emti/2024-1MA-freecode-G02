@@ -1,6 +1,6 @@
 footer{
   width: 100%;
-  height: 50px;
+  height: 80px;
   background-color:  rgb(12, 12, 12);
   display: flex;
 }
@@ -22,8 +22,7 @@ color: white;
 .lista .github a{
 color: white;
 text-decoration: none;
-margin-left: 55px;
+margin-left: 50px;
 margin-top: 5px;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
 }
